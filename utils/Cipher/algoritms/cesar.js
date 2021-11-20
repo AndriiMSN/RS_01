@@ -1,4 +1,4 @@
-const cesar = (string, shift) =>{
+const cesar = (string, shift = 0) => {
   return string.split("").map(el => {
       const charCode = el.charCodeAt(0);
       if (charCode >= 65 && charCode <= 90) {
@@ -17,6 +17,6 @@ const cesar = (string, shift) =>{
       return el;
     }
   ).join("");
-}
+};
 
-module.exports = cesar
+module.exports = cesar;

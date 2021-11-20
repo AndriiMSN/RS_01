@@ -4,10 +4,10 @@
   "author": "",
   "description": "",
   "keywords": [],
-  "main": "index.js",
+  "main": "my_ciphering_cli.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node my_ciphering_cli.js",
+    "dev": "nodemon my_ciphering_cli.js",
     "test": "echo \"Tests passed\" && exit 0",
     "prettify": "prettier --write",
     "prettify:all": "prettier --write \"./**/*.{js,json}\"",
